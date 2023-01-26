@@ -5,7 +5,7 @@ mkdir -p third-party
 # Installs gradle, which is needed for extensions
 GRADLE=gradle-7.1.1-bin.zip
 
-# Get gradle from u4
+# Get gradle
 wget -nv https://services.gradle.org/distributions/$GRADLE
 
 # Put it in /third-party
@@ -18,7 +18,7 @@ popd
 
 rm $GRADLE
 
-# Build ghidra from GrammaTech fork
+# Build ghidra
 git clone https://github.com/GrammaTech/ghidra.git ghidra_build
 pushd ghidra_build
 
