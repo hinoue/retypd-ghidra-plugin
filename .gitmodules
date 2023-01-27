@@ -1,0 +1,3 @@
+[submodule "retypd"]
+	path = retypd
+	url = git@github.com:grammatech/retypd

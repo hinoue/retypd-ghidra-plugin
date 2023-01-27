@@ -61,8 +61,7 @@ RUN python3.8 -m venv venv
 RUN . ./venv/bin/activate
 
 # Install retypd into the virtual environment
-RUN git clone https://github.com/GrammaTech/retypd.git /retypd/
-WORKDIR /retypd
+WORKDIR /ghidra_retypd/retypd
 RUN python3.8 -m pip install .
 
 # Install ghidra_retypd into the virutal environment
